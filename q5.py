@@ -11,3 +11,14 @@ data = prices.split(";")
 data.sort(reverse=True)
 for i in data:
     print(i)
+
+makes = prices.split(";")
+boxes =[]
+print(makes)
+for make in makes:
+    boxes.append(int(make))
+
+boxes.sort(reverse=True)
+
+for box in boxes:
+    print(box)
